@@ -25,7 +25,7 @@ server:
   port: 8080
 
 jwt:
-  secret: mySecretKeyForJWTtokenGeneration12345678901234567890
+  secret: ${JWT_SECRET:mySecretKeyForJWTtokenGeneration12345678901234567890}
   expiration: 86400000
 
 springdoc:
