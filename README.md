@@ -14,5 +14,11 @@ An internal service request management platform with intelligent routing, SLA tr
 
 ## Quick Start: docker-compose up --build
 
-Default Users: emp@servicehub.com, agent@servicehub.com, mgr@servicehub.com (password123)
+Default Users: admin@amalitech.com / agent@amalitech.com / user@amalitech.com (password123)
 Swagger: http://localhost:8080/swagger-ui.html
+
+## Getting started
+1. Copy .env.example to .env
+2. docker-compose up --build
+3. Backend: http://localhost:8080 | Swagger: /swagger-ui.html
+4. Branch off `develop`, PR back into `develop`
